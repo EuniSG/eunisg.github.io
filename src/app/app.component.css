@@ -1,0 +1,14 @@
+table {
+    border-left: transparent;
+    border-right: transparent;
+    border-style: solid;   
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+table tr {
+    border-style: solid;
+    border-collapse: collapse;
+}
+
