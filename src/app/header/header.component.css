@@ -4,9 +4,11 @@
     height: 500;
 }
 
-ul
-{
-  display:inline-flex;  
-  list-style:none;
+h1 {
+  padding-bottom: 0%;
+}
 
+i {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 0%;
 }

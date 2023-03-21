@@ -1,14 +1,30 @@
-<table border = "1">
+<table class="header">
+  <app-header></app-header>
+</table>
 
-  <tr style="align-content: center; text-align: center; align-items: center; justify-content: center;"> 
-      <app-header></app-header> 
-  <tr>
-    <td>
-      <app-work-experience></app-work-experience>
-    </td>
-    <td>
-      sprint 2 here...
-    </td>
-  </tr>
+<table>
   
+    <td>
+      
+      <app-work-experience></app-work-experience>
+        
+    </td>
+    <td style="background-color:royalblue; color: white;">
+      <app-skills></app-skills>
+    </td>
+
+    <td>
+      <app-skills-soft></app-skills-soft>
+    </td>
+  
+</table>
+
+<table style="background-color: rgb(255, 255, 255);">
+  <p class="title" style="text-align: center; ">Leadership</p>
+  <app-leadership></app-leadership>
+</table>
+
+<table style="background-color:royalblue; color: white; text-align: center;"> 
+  <p class="title" style="color: white"> Awards</p>
+  <app-awards></app-awards>
 </table>

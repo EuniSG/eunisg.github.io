@@ -1,14 +1,45 @@
+:root {
+    --cvcolor: royalblue;
+  }
+
 table {
     border-left: transparent;
     border-right: transparent;
     border-style: solid;   
     border-collapse: collapse;
     width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    border-color: royalblue;
     
 }
 
 table tr {
     border-style: solid;
     border-collapse: collapse;
+    align-self: center;
+    text-align: center;
+}
+
+
+table td {
+    width: 33%;
+    text-align: center;
+}
+
+
+.header {
+    background-color:rgb(100, 136, 245);
+    color: white;
+    font-family:Cambria;
+    width: 100%;
+}
+
+.title {
+    color: royalblue;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: large;
 }
 
